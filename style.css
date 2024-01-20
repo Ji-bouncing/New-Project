@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding:0;
+    clear:both;
+    box-sizing: border-box;
+}
+body{
+    background:black;
+    color:white;
+}
+html{
+    font-size:62.5%;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:3%;
+}
+header > div > img{
+    width:18%;
+}
+header div{
+    flex:1;
+    justify-content: space-between;
+}
+header div span{
+    text-transform: uppercase;
+    font-size:2rem;
+    margin:-8% 0 0 12%;
+    display: block;
+}
+header nav{
+    float:right;
+   margin:4% 4% 0 0;
+   
+}
+header nav ul{
+    flex-basis: 20%;
+    list-style: none;
+    padding-top:10%;  
+}
+.hidden{
+    display:none;
+}
+header nav ul li,header nav span i{
+    padding:5% 0;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+header nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+main{
+    padding-top:20%;
+    padding-left:8%;
+    height:60vh;
+    background-image: url('./Images/large_3c2a129a-868b-4a73-b7c6-d66338875f22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main > h1{
+    font-size:2.2rem;
+    text-transform: capitalize;
+    line-height: 3.2rem;
+    padding-bottom:5%;
+}
+main p{
+    font-size:1.3rem;
+    padding-bottom: 5%;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+main a{
+    text-decoration: none;
+    font-size:1.5rem;
+    color: white;
+    border-bottom: 2px solid darkred;
+    padding-bottom:0.5rem;
+    text-transform: capitalize;
+}
+main a:hover{
+    border-bottom: 2px solid darkblue;
+    padding-bottom:0.5rem;
+}
+main + section + section{
+    padding:5% 0;
+    text-align: center;
+    
+}
+main + section + section p{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.digitSpec{
+    color:rgba(22, 161, 211, 0.9);
+}
+main + section h2{
+    text-align: center;
+    font-size:3rem;
+   font-weight: 900;
+}
+main + section ul{
+    list-style: none;
+    width:100%;
+    margin-top:4%;
+}
+main + section ul li img{
+    width:180px;
+    height:180px;
+    display: inline;
+    border-radius:5px;
+}
+main + section ul li {
+    display:inline;
+    margin-left:3%;
+}
+.ContainerForSections{
+width:80%;
+margin:3% auto;
+}
+.ContainerForSections section{
+    margin-bottom:5%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+    border:2px solid gold;
+}
+.ContainerForSections section img{
+    width:80%;
+    display:block;
+    margin:0 auto;
+    border-radius:5px;
+}
+.ContainerForSections section h1{
+    margin:2% auto;
+    padding-left:10%;
+    font-size:2rem;
+    text-transform: uppercase;
+    color:gold;
+    letter-spacing: 0.2rem;
+}
+.ContainerForSections section p{
+    padding-left:10%; 
+    font-size:1.5rem;
+    line-height: 2rem;
+    padding-bottom:5%;
+}
+.ContainerForSections section a{
+    margin-left:10%; 
+    display: block;
+    text-decoration: none;
+    font-size:1.8rem;
+    color:whitesmoke;
+    border:2px solid wheat;
+    width: 30%;
+    text-align: center;
+    font-weight:900;
+    border-radius: 5px;
+    padding:2% 4%;
+    
+}
+.ContainerForSections section a:hover{
+    background: lightgrey;
+    color:black;
+}
+.faqsQuestion{
+    padding: 2% 10%;
+    background: whitesmoke;
+    color: black;
+}
+.faqsQuestion p{
+    padding:2%;
+    font-size: 1.5rem;
+}
+.faqsQuestion > h3{
+    text-align: center;
+    font-size: 2.2rem;
+    padding-bottom:3%;
+   
+}
+.faqsQuestion  div{
+    border: 1px solid black;
+    padding:2%;
+    border-radius:3px;
+}
+.show{
+    font-size:1.5rem;
+    margin-bottom:3%;
+}
+.showOne{
+    font-size:1.5rem;
+    margin-bottom:3%;
+}
+
+.showTwo{
+    font-size:1.5rem;
+    margin-bottom:3%;
+}
+.showThree{
+    font-size:1.5rem;
+    margin-bottom:3%;
+}
+.personalConsult{
+    border:4px solid rgb(145, 113, 34);
+    padding-left: 6%;
+    height:250px;
+    width:70%;
+    border-radius: 5px;
+    margin:4% auto;
+    background: rgb(24, 28, 32);
+}
+.personalConsult h3{
+    padding:5% 0 3% 0;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight:800;
+}
+.personalConsult p{
+    font-size: 1.5rem;
+    padding-bottom:4%;
+}
+.personalConsult a{
+    display: block;
+    margin-top:5%;
+    text-decoration: none;
+    color:white;
+    font-size:2.2rem;
+    text-transform:capitalize ;
+    background: goldenrod;
+    border-radius: 5px;
+    text-align: center;
+    padding:3% 6%;
+    width:35%;
+
+}
+.socialHandle{
+    display:flex;
+    justify-content: space-around;
+}
+.socialHandle > section img{
+    width:25%;
+    border-radius: 20px;
+}
+.socialHandle > section{
+    width: 80%;
+    margin:5%;
+}
+.socialHandle > section span{
+    margin-left:2%;
+    font-size: 3rem;
+    display: block;
+    margin:-15% 0 5% 32%;
+}
+.socialHandle > section p{
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+}
+.socialHandle > section  + section{
+    margin-left:10%;
+    padding-top:15%;
+}
+.socialHandle > section  + section ul{
+    list-style: none;
+    font-size: 4rem;
+}
+.socialHandle > section  + section ul li{
+    display: inline;
+    padding-bottom:10px;
+}
+.socialHandle > section  + section ul li:last-child i{
+    color:blue;
+}
+.socialHandle > section  + section ul:first-child i{
+    color:rgb(166, 48, 48);
+}
+.customerReview{
+    height:65vh;
+}
+.customerReview h2{
+text-align: center;
+padding:5% 0 3% 0;
+font-size: 3.5rem;
+}
+.customerReview  p{
+    font-size:1.5rem;
+    line-height: 2rem;
+    padding-bottom:5%;
+    text-align: center;
+}
+.customerReview img{
+    width:10%;
+    display: block;
+    margin:1% auto;
+    border-radius:80%;
+}
+.cName{
+    color:rgb(247, 203, 94);
+    font-size:2rem !important;
+    font-weight: 700;
+    padding-top:2%;
+}
+.ceoName{
+    text-align: center;
+    display: block;
+    font-size:1.9rem;
+    margin-top:-5%;
+}
+footer{
+   background: rgb(105, 99, 99); 
+   height:30px;
+   text-align: center;
+   padding:5px 0;
+   font-size: 1.5rem;
+   margin-bottom: 5%;
+}
