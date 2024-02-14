@@ -478,9 +478,11 @@ main + section ul{
         width: 55%;  
     }
     #subSectionsContainer section{
-      
-        height:30vh;
-        
+        height:30vh;   
+        }
+        .personalConsult{
+            height: 50vh;  
+           
         }
 }
 
