@@ -440,7 +440,7 @@ main + section ul{
         font-size:62.5%;
     }
     main{
-        height:50vh;
+        height:100vh;
         margin-bottom:15%;
         background-size: 100% 100%;
     }
@@ -465,7 +465,7 @@ main + section ul{
     }
     .personalConsult{
         height: 50vh;
-        margin-top:25%;
+        margin-top:36%;
         
     }
     .ContainerForSections section{
@@ -481,7 +481,7 @@ main + section ul{
         height:30vh;   
         }
         .personalConsult{
-            height: 50vh;  
+            height: 330px;  
            
         }
 }
