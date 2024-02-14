@@ -477,5 +477,10 @@ main + section ul{
     .ContainerForSections section a{
         width: 55%;  
     }
+    #subSectionsContainer section{
+      
+        height:30vh;
+        
+        }
 }
 
