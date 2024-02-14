@@ -6,8 +6,8 @@
     font-family: "Roboto Slab";
 }
 body{
-    background:black;
-    color:#ffffff;
+    background: darkgray;
+    color: black;
    
 }
 html{
@@ -19,7 +19,7 @@ header{
     padding-bottom:3%;
 }
 header > div > img{
-    width:18%;
+    width:19%;
 }
 header div{
     flex:1;
@@ -27,13 +27,15 @@ header div{
 }
 header div span{
     text-transform: uppercase;
-    font-size:2rem;
-    margin:-8% 0 0 12%;
+    font-size:3rem;
+    margin:-9% 0 0 14%;
+    font-weight:bold;
     display: block;
 }
 header nav{
     float:right;
    margin:4% 4% 0 0;
+   
    
 }
 header nav ul{
@@ -44,10 +46,15 @@ header nav ul{
 .hidden{
     display:none;
 }
-header nav ul li,header nav span i{
+header nav span i{
     padding:5% 0;
     text-transform: capitalize;
-    font-size: 1.5rem;
+    font-size: 5rem;
+}
+header nav ul li{
+    padding:5% 0;
+    text-transform: capitalize;
+    font-size: 3rem;
 }
 header nav ul li a{
     color:white;
@@ -56,27 +63,29 @@ header nav ul li a{
 main{
     padding-top:15%;
     padding-left:8%;
-    height:60vh;
-    background-image: url('./Images/large_3c2a129a-868b-4a73-b7c6-d66338875f22.jpg');
+    height:45vh;
+    background-image: url('./Images/Untitled\ design\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 main > h1{
-    font-size:2.2rem;
+    font-size: 3.2rem;
     text-transform: capitalize;
-    line-height: 3.2rem;
+    line-height: 4rem;
+    color:white;
     padding-bottom:5%;
 }
 main p{
-    font-size:1.3rem;
+    font-size:2rem;
     padding-bottom: 5%;
+    color:white;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 main a{
     text-decoration: none;
-    font-size:1.5rem;
+    font-size:2.8rem;
     color: white;
     border-bottom: 2px solid darkred;
     padding-bottom:0.5rem;
@@ -140,13 +149,15 @@ margin:3% auto;
     font-size:2rem;
     text-transform: uppercase;
     color:gold;
+    font-weight:bold;
     letter-spacing: 0.2rem;
 }
 .ContainerForSections section p{
     padding-left:10%; 
-    font-size:1.5rem;
-    line-height: 2rem;
-    padding-bottom:5%;
+    font-size:2rem;
+    line-height: 3rem;
+    font-weight:700;
+    margin-bottom:6%;
 }
 .ContainerForSections section a{
     margin-left:10%; 
@@ -210,7 +221,7 @@ margin:3% auto;
     width:70%;
     border-radius: 5px;
     margin:4% auto;
-    background: rgb(24, 28, 32);
+   
 }
 .personalConsult h3{
     padding:5% 0 3% 0;
@@ -219,7 +230,7 @@ margin:3% auto;
     font-weight:800;
 }
 .personalConsult p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom:4%;
 }
 .personalConsult a{
@@ -250,7 +261,7 @@ margin:3% auto;
 }
 .socialHandle > section span{
     margin-left:2%;
-    font-size: 3rem;
+    font-size: 4rem;
     display: block;
     margin:-15% 0 5% 32%;
 }
@@ -272,10 +283,13 @@ margin:3% auto;
     padding-bottom:10px;
 }
 .socialHandle > section  + section ul li:last-child i{
+    font-size:8rem;
     color:blue;
 }
 .socialHandle > section  + section ul:first-child i{
     color:rgb(166, 48, 48);
+    margin-left:10%;
+    font-size:8rem;
 }
 .customerReview{
     height:55vh;
@@ -286,15 +300,15 @@ padding:5% 0 3% 0;
 font-size: 3.5rem;
 }
 .customerReview  p{
-    font-size:1.5rem;
-    line-height: 2rem;
+    font-size:3rem;
+    line-height: 3rem;
     padding:5% 3%;
     text-align: center;
 }
 .customerReview img{
     width:10%;
     display: block;
-    margin:1% auto;
+    margin:2% auto;
     border-radius:80%;
 }
 .cName{
@@ -314,7 +328,8 @@ footer{
    height:30px;
    text-align: center;
    padding:5px 0;
-   font-size: 1.5rem;
+   color: white;
+   font-size: 2rem;
    margin-bottom: 5%;
 }
 
